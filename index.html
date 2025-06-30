@@ -4,16 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>30 Letters for 30 Days</title>
-
-  <!-- Load fonts: English + Urdu -->
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .countdown {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
+  <a href="grievance.html" class="nav-btn">Go to Grievance Portal 😤</a>
   <h1>30 Letters for 30 Days</h1>
-  <div class="grid" id="grid"></div>
 
-  <!-- Modal popup for daily content -->
+  <div class="grid" id="calendar"></div>
+
   <div class="modal" id="modal">
     <div class="modal-content">
       <span class="close" onclick="closeModal()">&times;</span>
