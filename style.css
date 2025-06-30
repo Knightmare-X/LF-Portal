@@ -31,10 +31,16 @@ h1 {
   text-align: center;
   cursor: pointer;
   transition: transform 0.2s;
+  position: relative;
 }
 
 .day:hover {
   transform: scale(1.05);
+}
+
+.locked {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 .modal {
@@ -55,6 +61,7 @@ h1 {
   max-height: 90vh;
   overflow-y: auto;
   position: relative;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 .close {
@@ -68,18 +75,50 @@ h1 {
 .poem {
   font-style: italic;
   margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #333;
 }
 
-/* Urdu text styling */
 .urdu {
   font-family: 'Noto Nastaliq Urdu', serif;
   direction: rtl;
   text-align: right;
   font-size: 1.3rem;
   line-height: 2.2rem;
+  margin-bottom: 1rem;
+  color: #111;
 }
 
-audio {
+.custom-audio {
   width: 100%;
+  background: #fff0f5;
+  border: 2px dashed #e91e63;
+  border-radius: 12px;
+  padding: 0.5rem;
   margin-top: 1rem;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  outline: none;
+  appearance: none;
+}
+
+.countdown {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.nav-btn {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #ffb6c1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 2px 2px 0 #e91e63;
+  transition: 0.2s ease;
+}
+
+.nav-btn:hover {
+  transform: scale(1.05);
 }
