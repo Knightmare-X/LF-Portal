@@ -1,7 +1,7 @@
 // ✍️ Your poem and song links go here (audio should be .mp3 or .ogg)
 const poems = {
   1: {
-    text: "This is your Day 1 poem. 💌",
+    text: "Finally, it's the day I've been waiting for! Happy Birthday, meri pyari si Lojain. I love you so much. I know in the past, you have bad memories associated with your birthday. That too because of me but I want to change that. I want to change everything about our relationship that was wrong. So on this day, I promise to fix everything that bothers you about me, and I promise that I will make you feel special every single day. Which is why I have built this Lojain Portal for you. Starting from today, every day from now you will see poetry as well as a song that I associate with you for the whole month. Not only that, I have also made a portal for you where you can submit your problems with me whenever you want and I also plan to add a few more features but I'll keep that a secret for now. I have built thing because one day or one paragraph isn't enough to describe how much you mean to me and how much I actually love you. So I will make you feel special every single day of the month. Because meri jaan you are special and I love you a lot and I actually want to fix things and make a beautiful future for ourselves together. I love you so much and Happy birthday again!",
     song: "audio/song 1.mp3"
   },
   2: {
