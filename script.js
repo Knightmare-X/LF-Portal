@@ -11,7 +11,7 @@ const poems = {
   2: {
     // Urdu poem
     text: "<div class='urdu'>تمہاری یاد میں ہر رات جاگتا ہوں<br>کہ جیسے چاندنی میں دل دھڑکتا ہو</div>",
-    song: "audio/day2.mp3"
+    song: "audio/song 2.mp3"
   },
   // ➕ Add more days like this:
   // 3: {
