@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Grievance Portal 😤</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Fonts & Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Firebase SDK -->
+  <script defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+  <script defer src="grievance.js"></script>
+</head>
+<body style="font-family: 'Open Sans', sans-serif; background: #fff0f5; padding: 2rem; text-align: center;">
+
+  <!-- Navigation -->
+  <a href="index.html" class="nav-btn">Back to Love Letters ✉️</a>
+
+  <h1 style="color: #e91e63;">Grievance Portal 😤</h1>
+  <p style="margin-bottom: 2rem;">Let it all out... I’m here to listen 💌</p>
+
+  <form id="grievance-form" style="max-width: 500px; margin: 0 auto;">
+    <textarea id="grievance-text" rows="6" placeholder="Type your grievance here..." style="width: 100%; padding: 1rem; border-radius: 10px; border: 2px dashed #e91e63; resize: none; font-size: 1rem;"></textarea>
+    <br><br>
+    <button type="submit" style="padding: 0.7rem 1.5rem; font-size: 1rem; background-color: #e91e63; color: white; border: none; border-radius: 6px; cursor: pointer; box-shadow: 2px 2px 0 #ff80ab;">
+      Submit Grievance 😤
+    </button>
+  </form>
+
+  <p id="confirmation" style="margin-top: 2rem; font-weight: bold; color: green;"></p>
+</body>
+</html>
