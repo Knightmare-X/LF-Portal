@@ -15,7 +15,7 @@ const poems = {
     </div>
   `,
     song: "audio/song 6.mp3"
-  }
+  },
   // ➕ Add more day entries here
 };
 
