@@ -13,7 +13,6 @@ const poems = {
      <div class="poem"> I know that deep down you still care about me and your way of showing your feelings is just different now, but I know you're still the same girl. I know one day, we will fix things and become our real selves and you won't have to put up those walls anymore. I will celebrate that day, I will consider it a national holiday. The day you come to me and ask to be in my arms, because you know that I am the same person you fell in love with. 
      </div>
       `
-  
     song: "audio/song 6.mp3"
   }
   // ➕ Add more day entries here
