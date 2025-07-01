@@ -5,8 +5,8 @@ const poems = {
     song: "audio/song 1.mp3"
   },
   2: {
-    text: "<div class='urdu'>تم میرے دل کی وہ خواہش ہو<br>جسے لفظوں میں بیان نہ کیا جا سکے</div>",
-    song: "audio/song 2.mp3"
+    text: "<div class='urdu'>مجھ کو غصے پہ پیار آتا ہے <br>تم کو آتا ہے پیار پر غصہ</div>",
+    song: "audio/song 6.mp3"
   }
   // ➕ Add more day entries here
 };
