@@ -16,7 +16,10 @@ const poems = {
   `,
     song: "audio/song 6.mp3"
   },
-  // ➕ Add more day entries here
+  3: {
+    text: "Another day of being grateful to breathe in the same air as you. Another day to be grateful to have you in my life. Your cute eyes are what make me smile instantly and I wish to see them every day after waking up next to you. As you slowly open them and cling to me like a little doll. I miss all that. I miss the clinginess and the love I used to get from you. I wish it gets restored soon.",
+    song: "audio/song 2.mp3"
+  },
 };
 
 const startDate = new Date("2025-07-01T00:00:00");
