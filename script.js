@@ -20,6 +20,12 @@ const poems = {
     text: "Another day of being grateful to breathe in the same air as you. Another day to be grateful to have you in my life. Your cute eyes are what make me smile instantly and I wish to see them every day after waking up next to you. As you slowly open them and cling to me like a little doll. I miss all that. I miss the clinginess and the love I used to get from you. I wish it gets restored soon.",
     song: "audio/song 2.mp3"
   },
+  4: {
+    text: "I wake up every day thinking about you, and go to sleep every day with you in my head. I wanna turn that into a reality soon enough to actually wake up next to you and sleep next to you, come home to you, spend all my lazy days in your arms, that too in our pretty house.",
+    song: "audio/song 3.mp3"
+  },
+
+  
 };
 
 const startDate = new Date("2025-07-01T00:00:00");
