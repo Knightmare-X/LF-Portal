@@ -24,7 +24,10 @@ const poems = {
     text: "I wake up every day thinking about you, and go to sleep every day with you in my head. I wanna turn that into a reality soon enough to actually wake up next to you and sleep next to you, come home to you, spend all my lazy days in your arms, that too in our pretty house.",
     song: "audio/song 3.mp3"
   },
-
+  5: {
+    text: "If we hang all the paintings you made in a room in our house, you, in your messy clothes, and unkept hair, would still look prettier than that. Speaking of paintings, I would love to sit down for hours, painting your beautiful portrait. Even though I am not a very good painter, I'd just do that as an excuse to look at your perfect everything for hours. Just staring and admiring you and regretting all the decisions I made.",
+    song: "audio/song 4.mp3"
+  },
   
 };
 
