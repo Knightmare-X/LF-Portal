@@ -28,7 +28,10 @@ const poems = {
     text: "If we hang all the paintings you made in a room in our house, you, in your messy clothes, and unkept hair, would still look prettier than that. Speaking of paintings, I would love to sit down for hours, painting your beautiful portrait. Even though I am not a very good painter, I'd just do that as an excuse to look at your perfect everything for hours. Just staring and admiring you and regretting all the decisions I made.",
     song: "audio/song 4.mp3"
   },
-  
+  6: {
+    text: "Every passing day feels emptier when you're not here. The walls of this house are no less than a prison at this point. It's a dark place that has lost its light. The light that came from your smile. The light that shone through your eyes. I wish that light finds its way back to this place, making it whole once again. Making it feel like the safe space it once was. I am hopeful that day will come sooner.",
+    song: "audio/song 5.mp3"
+  },
 };
 
 const startDate = new Date("2025-07-01T00:00:00");
